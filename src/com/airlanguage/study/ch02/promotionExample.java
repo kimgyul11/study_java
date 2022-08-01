@@ -12,10 +12,25 @@ public class promotionExample {
 		byte byteValue = 10;
 		System.out.println("byteValue:"+ byteValue +"일겁니다.");
 		
-		int intValue = byteValue;
-		System.out.println("intValue:"+ intValue);
+		short shortValue = byteValue;
+		System.out.println("short:"+ shortValue +"일겁니다.");
 		
+		int intValue = shortValue;
+		System.out.println("intValue:"+ intValue +"일겁니다.");
+		
+		long longValue = intValue;
+		System.out.println("longValue:"+ longValue +"일겁니다.");
+		
+		float floatValue = longValue;
+		System.out.println("longValue:"+ floatValue +"일겁니다.");
+		
+		double doubleValue = floatValue;
+		System.out.println("longValue:"+ doubleValue +"일겁니다.");
 //		-------------------
+		
+		
+		double doubleValue2 = 1234567;
+		System.out.println();
 		
 		//int intValue2 = 1234567890;
 		//System.out.println("intValue: "+ intValue);
@@ -25,10 +40,10 @@ public class promotionExample {
 		//byte byteValue2 = intValue2;
 		//System.out.println("byteValue2:" byteValue2 + "입니다~");
 		
-		int intValue3 = 200;
-		System.out.println("intvalue3:" + intValue3 + "입니다.");
+		//int intValue3 = 200;
+		//System.out.println("intvalue3:" + intValue3 + "입니다.");
 		
-		double doubleValue = intValue3;
-		System.out.println("doubleValue:" + doubleValue + "입니다.!");
+		//double doubleValue = intValue3;
+		//System.out.println("doubleValue:" + doubleValue + "입니다.!");
 	}
 }
