@@ -41,7 +41,7 @@ public class Randomsum {
 //				
 //				System.out.println("total : " + sum);
 
-				
+//				ctrl과 shift와 o를 눌러야지 호출할수있음 new 를..				
 //				여기서 부터 정민님 소스
 				Random rand = new Random();
 				
