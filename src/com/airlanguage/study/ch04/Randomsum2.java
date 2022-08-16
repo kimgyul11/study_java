@@ -35,5 +35,7 @@ public class Randomsum2 {
 			System.out.println(i + ":" + sum );
 		}
 		System.out.println("전체합계 : "+ sum);
+		
+		System.out.println("test");
 	}
 }
