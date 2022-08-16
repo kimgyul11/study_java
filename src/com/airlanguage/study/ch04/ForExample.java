@@ -31,36 +31,21 @@ public class ForExample {
 //		1 3 5 7 90
 //		출력하는 프로그램을 만드시요
 		
-//		
-//		for(int i=0; i<5; i++) {
-//			String t = "**********";
-//			System.out.println(t);
-//		}
-//		
-//		System.out.println("----------------");
-		
-//		
-//		for(int j=1; j<2; j++) {
-//			for(int jj=2; jj<3; jj++) {
-//				System.out.println();
-//			}
-//		}
-		
-//		for(int ii=0; ii<10; ++ii) {
-//			if(ii<10) {
-//				System.out.println("******");
-//			}else if(ii >=2 & ii <5 ) {
-//				System.out.println("*     *");
-//			}
-//		}
 		
 		
+		
+		
+		
+		
+		
+//	----------------------1번문제------------------
 //		for(int i=0;i<5;++i) {
-//			for(int j=0;j<11;j++) {
-//				System.out.print("*");
-//			}
-//			System.out.println("");
+//			for(int j=0; j<10; ++j) {
+//			System.out.print("*");
 //		}
+//		}
+//		
+		
 		
 //		for(int i=0;i<5;++i) {
 //			for(int j=0;j<11;j++) {
@@ -73,12 +58,14 @@ public class ForExample {
 //			System.out.println("");
 //		}
 		
+		
 		for(int i=1;i<10;++i) {
 			for(int j=1;j<=i;++j) {
 				System.out.print(j);
 			}
 			System.out.println("");
 		}
+ 
 		
 		
 		
