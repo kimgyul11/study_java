@@ -43,8 +43,10 @@ public class ForExample {
 //			for(int j=0; j<10; ++j) {
 //			System.out.print("*");
 //		}
+//			System.out.println("");
 //		}
-//		
+		
+	
 		
 		
 //		for(int i=0;i<5;++i) {
@@ -59,12 +61,33 @@ public class ForExample {
 //		}
 		
 		
-		for(int i=1;i<10;++i) {
-			for(int j=1;j<=i;++j) {
-				System.out.print(j);
-			}
-			System.out.println("");
-		}
+//		for(int i=1;i<10;++i) {
+//			for(int j=1;j<=i;++j) {
+//				System.out.print(j);
+//			}
+//			System.out.println("");
+//		}
+		
+		//3번문제
+//		for(int i=1; i<=10; ++i) {
+//			if(i==10) {
+//				for(int j=1; j<i; ++j) {
+//					if(j%2==1) {
+//						System.out.print(j);
+//					}else {
+//						System.out.print(" ");
+//					}
+//				}
+//				System.out.println("0");
+//			}else {
+//			
+//			for(int j=1; j<=i; ++j) {
+//				System.out.print(j);
+//			}
+//			System.out.println();
+//			}
+//			}
+		
  
 		
 		
