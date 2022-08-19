@@ -59,13 +59,6 @@ public class ArrayInArrayExample {
 //			System.out.println(" 과목의 평균 점수는: "+((double)sum/5));
 //		}
 		
-		for(int j=0;j<3;j++) {
-			int sum=0;
-			for(int i=0; i<5;i++){
-				
-			}
-		}
-		
 	}
 
 }
