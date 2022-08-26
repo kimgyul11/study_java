@@ -9,6 +9,7 @@ public class DmbCellPhoneExample {
 		//부모 객체를 생성하고 powerOn 메서드 실행.
 		Cellphone cellphone = new Cellphone();
 		cellphone.turnOn();
+		cellphone.turnoff();
 	
 		//자식 객체 생성 *자식객체를 만들면 자동으로 부모객체도 생성된다. 참고하자
 		DmbCellPhone dmbcellphone = new DmbCellPhone();

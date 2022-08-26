@@ -11,13 +11,13 @@ public class Cellphone {
 	//생성자
 	
 	//메소드
-	void turnOff() {System.out.println("종료되었습니다.");}
-	void turnOn() {System.out.println("실행되었습니다.");}
+	void turnoff() {System.out.println("전원이 꺼질까요 켜질까요 꺼집니다.");}
+	void turnOn() {System.out.println("전원이 켭니다.");}
 	void bell() {System.out.println("알람이 울립니다.");}
-	void send(String message) {System.out.println("나 : "+message);}
-	void recive(String message) {System.out.println("상대 : "+message);}
-	void hangup() {System.out.println("통화 종료");}
-	
+	void sendMassage(String massage) {System.out.println("나 : " + massage);}
+	void returnVoice(String massage) {System.out.println("상대 : "+massage);}
+	void outcall() {System.out.println("끝");}
+
 	
 	
 	

@@ -16,7 +16,7 @@ public class boardExample {
 //			board2.say();
 //			board3.say();
 //			board4.say();
-		
+
 		board b = new board();
 		board b1 = new board("김김김");
 		board b2 = new board("김기률","24회");
@@ -29,9 +29,6 @@ public class boardExample {
 		System.out.println("이름 : " + b3.name+" 조회수 :"+b3.ny);
 		System.out.println("이름 : " + b4.name+" 조회수 :"+b4.view+" 사용법 : "+b4.ny);
 
-	}
-
-	
-	
-	
+		
+	}	
 }
