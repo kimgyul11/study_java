@@ -16,19 +16,20 @@ public class CarSecond {
 		this.name = name;
 		this.cc = cc;
 	}
-	
+		
 //	자동차 이름, CC ,색깔	
 	CarSecond(String name, int cc, String color){
 		this.name = name;
 		this.cc = cc;
 		this.color = color;
 	}
+	
 //보통 사용할때는 아래처럼 만든다..
 //	CarSecond(String name){
 //		name=name이렇게 만들면 헷갈리니
 //		this.name = name 이렇게쓴다.
 //	}
-// 	
+ 	
 	
 	
 	//오버로드 : 함수의 이름이 같은데 매개변수가 다른것이다.

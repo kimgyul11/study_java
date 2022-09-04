@@ -3,7 +3,6 @@ package com.airlanguage.study.ch06;
 public class CarSecondExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		CarSecond carsecond = new CarSecond();
 		// 위에것은 int a;와 같은 상태이다.
@@ -14,6 +13,7 @@ public class CarSecondExample {
 		CarSecond carsecond2 = new CarSecond("blue");
 		CarSecond carsecond3 = new CarSecond("티볼리",3000);
 		CarSecond carsecond4 = new CarSecond("모닝",5000,"black");
+		
 		
 		System.out.println("Carsecond2 color : " + carsecond2.color);
 		System.out.println("carsecond2 cc : "+ carsecond2.cc);
