@@ -18,8 +18,8 @@ public class DmbCellPhoneExample {
 		dmbcellphone.turnOffDmb();
 		
 		//Dmbcellphone에서 만든 생성자를 이용하여 자식 객체 생성
+//		DmbCellPhone dmbcellphone2 = new DmbCellPhone("아이폰15","레드",3);
 		DmbCellPhone dmbcellphone2 = new DmbCellPhone("아이폰15","레드",3);
-		
 		
 		
 		// dmbcellPhone2 객체를 사용하여 자식 클래스의 함수 전체 호출
